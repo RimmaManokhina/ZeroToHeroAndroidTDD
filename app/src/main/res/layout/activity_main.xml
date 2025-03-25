@@ -12,13 +12,11 @@
         android:layout_width="wrap_content"
         android:id="@+id/titleTextView"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        />
+        android:text="Hello World!" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/removeButton"
         android:text="remove"/>
-
 </LinearLayout>
