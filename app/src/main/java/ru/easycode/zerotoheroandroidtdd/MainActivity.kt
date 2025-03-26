@@ -10,9 +10,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        lateinit var textView = TextView
-        lateinit var button = Button
+        private lateinit var textView : TextView
+        private lateinit var button : Button
+        var step : Int = 2
+        var number : Int = 0
+        var increment : Int = number + step
 
+
+        button.setOnClickListener {
+            textView.text == increment.toString()
+        }
 
 
     }
